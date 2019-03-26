@@ -4,20 +4,20 @@
 ## 安装
 
 ```bash
-	npm install -g cordova
+npm install -g cordova
 ```
 > 注意：我第一次安装用的cnpm，出现了一些问题，后卸载且删除目录后重新用npm安装的就可以了 
 
 ## 创建项目
 
 ```bash
-	cordova create appName org.apache.cordova.myApp appName
+cordova create appName org.apache.cordova.myApp appName
 ```
 
 ## 生成android项目
 
 ```bash
-	cordova platform add android
+cordova platform add android
 ```
 
 ## 创建vue项目
@@ -65,7 +65,7 @@
 ## build vue 项目
 
 ```bash
-	npm run build
+npm run build
 ```
 
 ## 校验开发环境的完整性
@@ -107,7 +107,6 @@ cordova run android
 
 
 ## 参考链接
-- [cordova+vue 项目打包成Android（apk）应用](http:/
-/www.cnblogs.com/qirui/p/8421372.html)
+- [cordova+vue 项目打包成Android（apk）应用](http://www.cnblogs.com/qirui/p/8421372.html)
 - [Mac下配置Gradle的路径](https://blog.csdn.net/wj9966/article/details/78144453)
 - [【Gradle】Mac上配置gradle环境变量以及gradle: Permission denied解决方案](https://blog.csdn.net/zhichaosong/article/details/81148184)
