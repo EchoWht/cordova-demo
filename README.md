@@ -101,6 +101,10 @@ cordova build android
 需要手动启动一个模拟器，注意不要通过android studio启动
 
 ```bash
+/Users/wanghaotian/Library/Android/sdk/emulator/emulator  -netdelay none -netspeed full -avd Nexus_5X_API_28
+```
+
+```bash
 cordova run android
 ```
 
